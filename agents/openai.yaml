@@ -1,0 +1,13 @@
+interface:
+  display_name: K-BDS 메타데이터 대조
+  short_description: 임상·시퀀싱 자료를 K-BDS 양식과 근거 기반으로 대조
+  default_prompt: CA19-9 자료의 임상 메타데이터와 FASTQ 목록을 BioSample·KRA 양식에 대조해 검토표를 만들어줘.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
